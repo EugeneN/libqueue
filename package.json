@@ -1,0 +1,24 @@
+{
+  "name": "libqueue",
+  "description": "interface for config manipulations",
+  "version": "0.0.1",
+  "author": {
+    "name": "E.Naumenko"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EugeneN/libqueue"
+  },
+  "dependencies": {
+    "libprotein": "*"
+  },
+  "scripts": {
+    "postinstall": "coffee -c index.coffee"
+  },
+  "cafebuild": "coffee -c index.coffee",
+  "engine": [
+    "node >=0.1.102"
+  ],
+  "main": "./index.js",
+  "readmeFilename": "README.md"
+}
